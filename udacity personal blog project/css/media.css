@@ -1,0 +1,11 @@
+@media screen and (max-width: 1080px) {
+    body {
+        font-size: 2rem;
+    }
+
+    nav li {
+        min-height: 3.25rem;
+        font-size: 3.25rem;
+        line-height: 3.25em;
+    }
+}

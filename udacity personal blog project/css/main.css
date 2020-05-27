@@ -1,0 +1,69 @@
+@import "./media.css";
+@import "./typography.css";
+@import "./title_typography.css";
+
+body {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #550527;
+}
+
+article {
+    height: 100%;
+    width: 100%;
+    background-color: #688e26;
+}
+
+header {
+    margin-bottom: 1rem;
+    background-color: #faa613;
+    color: #550527;
+    text-align: center;
+}
+
+nav {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: inline-block;
+    width: 45%;
+    min-height: 50px;
+    line-height: 50px;
+    color: #faa613;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+}
+
+nav li:first-child {
+    background-color: #a10702;
+}
+
+nav li:first-child:hover {
+    background-color: #f44708;
+}
+
+nav li:last-child {
+    background-color: #550527;
+}
+
+nav li:last-child:hover {
+    background-color: #f44708;
+}
+
+footer {
+    margin-top: 1rem;
+    background-color: #faa613;
+    color: #550527;
+    text-align: center;
+}

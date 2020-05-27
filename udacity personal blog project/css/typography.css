@@ -1,0 +1,13 @@
+blockquote {
+    padding: 3rem 3rem 3rem 3rem;
+    background-color: #fdca71;
+    color: #f44708;
+    font-style: italic;
+    font-style: smaller;
+}
+
+b {
+    color: #fdca71;
+    font-style: initial;
+    font-family: Impact, Charcoal, sans-serif;
+}
